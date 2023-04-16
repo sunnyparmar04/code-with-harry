@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson number 7</title>
+</head>
+<body>
+    <h1>lessone number 7</h1>
+    <script>
+        var obj ={
+            "name":"sunny",
+            age : 27,
+            gender : "male",
+            bday : 4497
+        }
+
+        console.log(obj);
+        console.log(obj.gender);
+        console.log(obj["name"]);
+
+        //array 
+
+        var mark=[1,2,3,5,6];
+        console.log(mark);
+        let value= mark.indexOf(5);
+        console.log(value);
+        
+        mark.push(35); // last ma number add kre 
+        console.log(mark);
+
+        mark.unshift(111);// start ma ek number add kre
+        console.log(mark);
+
+        mark.pop();//last ek number remove kare
+        console.log(mark);
+
+        mark.shift();//start ma ek number reove kare
+        console.log(mark);
+
+        mark.splice(2,4);//index add in ( to remove array)
+        console.log(mark);
+
+        mark.reverse();
+        console.log(mark);
+
+
+        //concate array
+        let mark2=[9,5,3,6,5];
+        mark=mark2.concat(mark);
+        console.log(mark);
+        mark=mark.concat(mark2);
+        console.log(mark);
+    </script>
+</body>
+</html>
